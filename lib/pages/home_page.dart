@@ -221,7 +221,7 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: ZoomIn(
         delay: Duration(milliseconds: start + 3 * delay),
         child: FloatingActionButton(
-          backgroundColor: Pallete.secondSuggestionBoxColor,
+          backgroundColor: Color.fromARGB(255, 133, 61, 109),
           onPressed: () async {
             if (await speechToText.hasPermission &&
                 speechToText.isNotListening) {
